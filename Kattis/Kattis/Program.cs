@@ -6,8 +6,8 @@ namespace Kattis
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Problem F Majstor");
-            Console.WriteLine("Please type in your input");
+            //Console.WriteLine("Problem F Majstor");
+            //Console.WriteLine("Please type in your input");
 
             int R = Int32.Parse(Console.ReadLine());
             if(R>50 & R<1)
@@ -106,6 +106,64 @@ namespace Kattis
                 
 
             }
+
+
+
+            int Pcount = 0;
+            int Rcount = 0;
+            int Scount = 0;
+            int MaxTest1 = 0;
+            int MaxTest2 = 0;
+            int MaxTest3 = 0;
+
+
+            for (int i = 0; i < R; i++) //for each round
+            {
+                    Rcount = 0;
+                    Pcount = 0;
+                    Scount = 0;
+
+                for (int x = 0; x < N; x++) //for each friend
+                {
+                    if (FriendsArray[x][i] == 'R')
+                    {
+                        Rcount = Rcount + 1;
+                    }
+                    else if (FriendsArray[x][i] == 'P')
+                    {
+                        Pcount = Pcount + 1;
+                    }
+                    else if (FriendsArray[x][i] == 'S')
+                    {
+                        Scount = Scount + 1;
+                    }
+                }
+
+
+                MaxTest1 = 0;
+                MaxTest2 = 0;
+                MaxTest3 = 0;
+
+                 MaxTest1 = Rcount * 2 + Pcount; //Paper
+                 MaxTest2 = Scount * 2 + Rcount; //Rock
+                 MaxTest3 = Pcount * 2 + Scount; //Scissors
+
+                if(MaxTest1> MaxTest2 & MaxTest1 > MaxTest3)
+                {
+                    SvenMaxScore = SvenMaxScore + MaxTest1;
+                }
+                else if (MaxTest2 > MaxTest1 & MaxTest2 > MaxTest3)
+                {
+                    SvenMaxScore = SvenMaxScore + MaxTest2;
+                }
+                else if (MaxTest3 > MaxTest1 & MaxTest3 > MaxTest2)
+                {
+
+                    SvenMaxScore = SvenMaxScore + MaxTest3;
+                }
+
+            }
+
                 Console.WriteLine(SvenCurrentScore);
                 Console.WriteLine(SvenMaxScore);
 
