@@ -1,0 +1,13 @@
+C:\Users\591119\source\repos\Kattis\Kattis\bin\Debug\netcoreapp3.1\Kattis.exe
+C:\Users\591119\source\repos\Kattis\Kattis\bin\Debug\netcoreapp3.1\Kattis.deps.json
+C:\Users\591119\source\repos\Kattis\Kattis\bin\Debug\netcoreapp3.1\Kattis.runtimeconfig.json
+C:\Users\591119\source\repos\Kattis\Kattis\bin\Debug\netcoreapp3.1\Kattis.runtimeconfig.dev.json
+C:\Users\591119\source\repos\Kattis\Kattis\bin\Debug\netcoreapp3.1\Kattis.dll
+C:\Users\591119\source\repos\Kattis\Kattis\bin\Debug\netcoreapp3.1\Kattis.pdb
+C:\Users\591119\source\repos\Kattis\Kattis\obj\Debug\netcoreapp3.1\Kattis.csprojAssemblyReference.cache
+C:\Users\591119\source\repos\Kattis\Kattis\obj\Debug\netcoreapp3.1\Kattis.AssemblyInfoInputs.cache
+C:\Users\591119\source\repos\Kattis\Kattis\obj\Debug\netcoreapp3.1\Kattis.AssemblyInfo.cs
+C:\Users\591119\source\repos\Kattis\Kattis\obj\Debug\netcoreapp3.1\Kattis.csproj.CoreCompileInputs.cache
+C:\Users\591119\source\repos\Kattis\Kattis\obj\Debug\netcoreapp3.1\Kattis.dll
+C:\Users\591119\source\repos\Kattis\Kattis\obj\Debug\netcoreapp3.1\Kattis.pdb
+C:\Users\591119\source\repos\Kattis\Kattis\obj\Debug\netcoreapp3.1\Kattis.genruntimeconfig.cache
